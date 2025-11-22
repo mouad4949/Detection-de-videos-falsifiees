@@ -38,6 +38,8 @@ Assurez-vous que les fichiers suivants sont présents dans le même répertoire 
 Ce projet nécessite les bibliothèques Python classiques pour le Deep Learning (PyTorch) et Streamlit.
 
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install streamlit torch torchvision timm pillow
 ```
 
