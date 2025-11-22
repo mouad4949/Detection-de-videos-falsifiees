@@ -1,4 +1,4 @@
-# 👁️ Détection de Deepfakes par Analyse d'Image (Projet G2)
+#  Détection de Deepfakes par Analyse d'Image (Projet G2)
 
 Ce projet implémente un classifieur d'images basé sur le **Transfert d'Apprentissage** (Deep Learning) capable de distinguer les visages réels des visages générés numériquement (Deepfakes).
 
@@ -6,7 +6,7 @@ L'application finale utilise **Streamlit** pour fournir une interface utilisateu
 
 ---
 
-## ⚙️ Modèle et Performance
+##  Modèle et Performance
 
 | Caractéristique | Description |
 |-----------------|-------------|
@@ -18,7 +18,7 @@ L'application finale utilise **Streamlit** pour fournir une interface utilisateu
 
 ---
 
-## 🚀 Comment Exécuter l'Application (Inférence)
+##  Comment Exécuter l'Application (Inférence)
 
 Pour lancer l'application Streamlit et tester le modèle entraîné sur vos propres images :
 
@@ -55,7 +55,7 @@ L'application s'ouvrira automatiquement dans votre navigateur par défaut (gén�
 
 ---
 
-## 🧪 Ré-entraînement ou Analyse (Optionnel)
+##  Ré-entraînement ou Analyse 
 
 Si vous souhaitez reproduire l'entraînement complet ou analyser la méthodologie en détail :
 
