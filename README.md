@@ -43,9 +43,16 @@ source venv/bin/activate
 pip install streamlit torch torchvision timm pillow
 ```
 
-### 3. Lancement de l'Application
+### 3. Téléchargement du Modèle
 
-Exécutez le script Streamlit via votre terminal :
+⚠️ **Important** : Avant de lancer l'application, vous devez télécharger le fichier des poids du modèle entraîné.
+
+1. Téléchargez le modèle depuis Google Drive : [**best_model_finetuned.pth**](https://drive.google.com/drive/folders/1UENxA_7Axbv1vwDIoSBFw5KCHspqYo69?usp=sharing)
+2. Placez le fichier `best_model_finetuned.pth` dans le **même répertoire** que `app.py`
+
+### 4. Lancement de l'Application
+
+Une fois le modèle téléchargé et placé au bon endroit, exécutez le script Streamlit via votre terminal :
 
 ```bash
 streamlit run app.py
